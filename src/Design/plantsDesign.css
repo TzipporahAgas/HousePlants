@@ -1,0 +1,71 @@
+.searchInput {
+
+    position: absolute;
+    right: 55%;
+    top: 4%;
+    width: 20%;
+    height: 7%;
+    font-size: 2vmin;
+    border-radius: 5%;
+    background: url("../icons/search.png") no-repeat left;
+
+}
+
+.clear {
+    position: absolute;
+    left: 23%;
+    top: 35px;
+
+}
+
+
+.tdGrid {
+    border-style: none;
+    height: 50%;
+    font-size: 2vmin;
+    text-align: center;
+}
+
+.trTable {
+
+    background-color: #dac5bc !important;
+    border-style: none;
+    height: 1.5vmin;
+}
+
+#dtBasicExample {
+    position: absolute;
+    width: 70%;
+    height: 10%;
+    left: 12%;
+    top: 18%;
+    border-style: none;
+    /* background: #DAC9BC; */
+}
+
+
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #F4F0ED;
+    border-style: none;
+}
+
+#paginagion {
+    margin-top: 23%;
+    margin-left: 40%;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: green !important;
+}
+
+.scrollit {
+    overflow: scroll;
+    height: 200px;
+}
+
+.noMatch {
+    position: absolute;
+    top: 20%;
+}
