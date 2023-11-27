@@ -133,7 +133,7 @@ export default function HousePlants(props: any) {
     return (
         <div>
             <Button className="clear" onClick={(e: any) => clear()}>clear</Button>
-            <input className="searchInput" dir="rtl" placeholder="search" onChange={(e) =>
+            <input className="searchInput" dir="ltr" placeholder="search" onChange={(e) =>
                 searchFirstOrLastName(e.target.value)
             } ></input>
             {smallArr.length > 0 && dataCopy.length > 0 ? (<table id="dtBasicExample" className="table table-striped table-bordered table-sm" cellSpacing="0" width="100%" >
